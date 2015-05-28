@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/mitemauno.css" />
+<link rel="stylesheet" href="css/jquery.structure-1.4.5.min.css" />
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones1.js"type="text/javascript"></script>
+<script src="js/acciones2.js"type="text/javascript"></script>
+<script src="js/acciones3.js"type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+<body>
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>APLICACION 7 </h1>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>APLICACION 3</h2>
+<p>bipear y vibrar</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>APLICACION 4</h2>
+<p>Datos del celular</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Aplicacion 5</h2>
+<p>arrastrar la pantalla de derecha a izquierda</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+<div>
+<h4>Aplicacion 7</h4>
+<h4>FER BONOLA</h4>
+</div>
+</div>
+</div>
+  
+<div data-role="page" id="page1" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>aplicacion 3</h1>
+        <h2>dar clic en algun boton </h2>
+</div>
+<div data-role="content" align="center">
+<div>
+ 
+<div data-role="content">
+
+ <div align="center" data-role="controlgroup" data-type="vertical">
+ <div style="width:40%;">
+ <a href="#" data-role="button" data-icon="star" data-iconpos="right" id="beep"> Beep</a>
+ <a href="#" data-role="button" data-icon="refresh" data-iconpos="right" id="vibrar"> Vibrar</a>
+
+ </div>
+ </div>
+</div>
+   <div data-role="footer" data-position="fixed">
+   <h2> FER BONOLOA </h2>
+    </div>
+</div>
+    
+
+<div data-role="footer" data-theme="a">
+<h4>Aplicacion 3, Fer Bonola</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="page2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>aplicacion 4</h1>
+
+
+
+  <div data-role="header">
+     <h1>Menu</h1>
+     </div>
+  <div data-role="content">
+      <ul data-role="listview">
+      <li><a href="#page5">Dispositivo</a></li>
+      <li><a href="#page9">Eventos</a></li> 
+   </ul>
+   </div>
+ <div data-role="footer">
+     <h4>FER BONOLOA</h4>
+     </div>
+  </div>
+</div>
+
+
+<div data-role="page" id="page5" data-theme="a">
+     <div data-role="header">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Dispositivo</h1>
+</div>
+          </div>
+          <div>
+         <data-role="page" id="pageA" data-theme="b">
+         <div data-role="content">
+          <div id="disp">
+    <table width="200" border="1" id="datos">
+  <tr>
+     <td width="83">Datos</td>
+     <td width="101">Dispositivo</td>
+    </tr>
+  <tr>
+     <td>Nombre</td>
+     <td>&nbsp;</td>
+   </tr>
+<tr>
+   <td>Phonegap</td>
+   <td>&nbsp;</td>
+</tr>
+<tr>
+  <td>Plataforma</td>
+  <td>&nbsp;</td>
+   </tr>
+<tr>
+   <td>Version</td>
+   <td>&nbsp;</td>
+ </tr>
+<tr>
+  <td>UUID</td>
+   <td>&nbsp;</td>
+ </tr>
+</table>
+</div>
+</div>
+
+  <div data-role="footer">
+   <h4>fer Bonola</h4>
+     </div>
+  </div>
+ </div>
+   </div>
+
+
+<div data-role="page" id="page9" data-theme="a">
+    <div data-role="header">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Eventos</h1>
+        </div>
+       
+           <div data-role="content">
+           <div>
+    <h2>Historia </h2>
+    <ul id="eHistoria">
+</ul>
+</div>
+</div>
+   <div data-role="footer">
+      <h4>Fer Bonola</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div data-role="page" id="page3" data-add-back-btn="true" data-theme="a">
+<div data-role="header"data-add-back-btn="true"data-back-btn-text="Regresar" data-theme="b">
+<h1>APLICACION 5</h1>
+
+
+ <div data-role="header">
+     <h1>Menu</h1>
+     </div>
+</div>
+  <div data-role="content">
+      <ul data-role="listview">
+      <li><a href="#page10" data-transition="slidedown">Eventos</a></li> 
+   </ul>
+   </div>
+ <div data-role="footer" data-position="fixed">
+     <h4>FER BONOLOA</h4>
+        <h4>4E </h4>
+     </div>
+ </div>
+</div>
+  
+
+
+
+<div data-role="page" id="page10" data-add-back-btn="true">
+    <div data-role="header" data-position="fixed">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Eventos</h1>
+      </div>
+  </div>
+           <div data-role="content">
+           <ul data-role="controlgroup" data-type="vertical">
+           <li><a href="#pageo" data-transition="fade" data-role="button">Izquieda</a></li>
+           <li><a href="#pageu" data-transition="pop" data-role="button">Derecha</a></li>
+           </ul>
+</div>
+ <div data-role="footer" data-position="fixed">
+   <h4>FER BONOLOA</h4>
+       </div>
+ 
+  </div>
+  <div data-role="page" id="pageo" data-add-back-btn="true">
+    <div data-role="header" data-position="fixed">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Izquierda</h1>
+         </div>
+         <div data-role="content" align="center">
+         <div id="izquierda" style="width:90%;height:300px;background-color:#09F;">
+          </div>
+          
+           </div>
+            <div data-role="footer">
+             <h4>FER BONOLOA</h4>
+     </div>
+  </div>
+   </div>
+   <div data-role="page" id="pageu" data-add-back-btn="true">
+    <div data-role="header">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Derecha</h1>
+      </div>
+          <div data-role="content" align="center">
+         <div id="derecha" style="width:90%;height:300px;background-color:#9F3;">
+          </div>
+           </div>
+            <div data-role="footer" data-position="fixed">
+             <h4>FER BONOLOA</h4>
+     </div>
+  </div>
+    </div>
+   </div>
+</body>
+</body>
+    </html>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
